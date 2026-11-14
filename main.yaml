@@ -1,0 +1,5 @@
+- name: ping the servers
+  hosts: roboshop_frontend
+  tasks:
+    - name: ping servers
+      ping:
