@@ -11,3 +11,7 @@ hostnames:
   - private-ip-address
 
 # ansible-inventory -i inventory.aws_ec2.yaml --graph -> will get ungrouped list of ip's
+
+# to group the ip's uisng name from tags
+keyed_groups:
+  - key: tags.Name
