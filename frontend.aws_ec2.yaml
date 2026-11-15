@@ -15,3 +15,4 @@ hostnames:
 # to group the ip's uisng name from tags
 keyed_groups:
   - key: tags.Name
+    separator: ""
