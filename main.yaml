@@ -1,6 +1,7 @@
 - name: ping the servers
   hosts: roboshop_frontend
   become: yes
+  serial: 2 # playbook works for 2 servers at a time
   tasks:
     - name: ping servers
       ping:
