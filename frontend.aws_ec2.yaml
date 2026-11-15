@@ -15,4 +15,4 @@ hostnames:
 # to group the ip's uisng name from tags
 keyed_groups:
   - key: tags.Name
-    separator: ""
+    separator: "" # this removes the beginning underscore for _roboshop_frontend and gives roboshop_frontend
