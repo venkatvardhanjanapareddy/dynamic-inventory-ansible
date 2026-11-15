@@ -4,5 +4,7 @@
   tasks:
     - name: ping servers
       ping:
+
+    - name: say Hi
       debug:
         msg: "HI"
